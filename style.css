@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  background-image: url("cash1.jpg");
+    background-position: right;
+  background-repeat: no-repeat;
+  color: #3D8361;
+   
+
+}
+.container{
+  position: absolute;
+  top:100px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left:8%;
+  background-color: #eee1aa;
+  padding: 10px;
+}
+
+input{
+  margin-bottom:10px
+  
+}
+button{
+  margin:10px 0;
+}
